@@ -18,7 +18,7 @@ public interface GitRepository extends Serializable {
 
 	String deleteBranch(String branchName);
 
-	List<CommitMessage> log();//имя коммита и сообщение?
+	List<CommitMessage> log();
 
 	List<String> branches(); // list of branch names
 
